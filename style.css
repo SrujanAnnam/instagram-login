@@ -1,0 +1,488 @@
+body, button, input, textarea {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+html, body, #react-root {
+    height: 100%;
+}
+body {
+    background: #fff;
+    overflow-y: scroll;
+    margin: 0;
+}
+body {
+    line-height: 1;
+}
+#react-root {
+    z-index: 0;
+}
+#react-root, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.A {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+
+}
+.B {
+    min-height: 100%;
+    overflow: hidden;
+}
+.C {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-ordinal-group: 5;
+    order: 4;
+}
+.D {
+    background-color: #fafafa;
+}
+.E {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+.F {    
+    align-self: center;
+    background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+    background-position: 0 0;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+@media (max-width: 875px){
+    .F {
+        display: none;
+    }
+    }
+.G {
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+.H {
+    height: 427px;
+    left: 0;  
+    top: 0;
+    width: 240px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+
+    animation-name: image;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    z-index: 2;
+}
+@keyframes image {
+    0% {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    background-image: url(https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg);
+    background-size: 240px 427px;
+  }
+  25% {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    background-image: url(https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg);
+    background-size: 240px 427px;
+  }
+  50% {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    background-image: url(https://www.instagram.com/static/images/homepage/screenshot3-2x.jpg/ff2c097a681e.jpg);
+    background-size: 240px 427px;
+  }
+  75% {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    background-image: url(https://www.instagram.com/static/images/homepage/screenshot4-2x.jpg/b27a108592d8.jpg);
+    background-size: 240px 427px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    background-image: url(https://www.instagram.com/static/images/homepage/screenshot5-2x.jpg/5e04169b9308.jpg);
+    background-size: 240px 427px;
+  }
+}
+.I {
+    color: rgba(var(--i1d,38,38,38),1);
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}  
+.J {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.K {
+    margin: 22px auto 12px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+}
+.L {
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+.M {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.M-1 {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    align-content: stretch;
+}
+.M-2 {
+    margin-top: 24px;
+}
+.M-3 {
+    margin: 0 40px 6px;
+}
+.M-3-1 {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-appearance: none;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+.M-3-2 {
+    display: flex;
+    height: 36px;
+    -webkit-box-flex: 1;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+    font-size: 16px;
+}
+.M-3-3 {
+    font-size: 12px;
+    color: #8e8e8e;
+    background: #fafafa;
+    border: 0;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+}
+.N {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+.N-1 {
+    margin-left: 8px;
+}
+.Show {
+    appearance: none;
+    background: 0 0;
+    color: #262626;
+    border: #dbdbdb;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+}
+
+.M-1-1 {
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+.Login {
+    background-color: #0095f6;
+    opacity: 1;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    appearance: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+}
+.OR {
+    margin: 10px 40px 18px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+.OR-1 {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #dbdbdb;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+.OR-2 {
+    color: #8e8e8e;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+.Facebook {
+    appearance: none;
+    background: 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+    border: 0;
+    color: #0095f6;
+    display: inline;
+    padding: 0;
+    position: relative;
+}
+.Facebook-1 {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px; 
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+}
+.Facebook-2 {
+    color: #385185;
+}
+.Forgot, .Forgot:hover, .Forgot:active, .Forgot:visited {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+.J-1 {
+    display: block;
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+.J-2 {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+.J-2>a, .J-2>a:hover, .J-2>a:active, .J-2>a:visited {
+    color: #0095f6;   
+}
+.J-3 {
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+a, a:visited {
+    text-decoration: none;
+}
+.GET-2 {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+}
+.GET-3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+.GET-4 {
+    margin-right: 8px;
+}
+.GET-5 {
+    height: 40px;
+}
+.FOOT {
+    background-color: #fafafa;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-box-ordinal-group: 6;
+    order: 5;
+    padding: 0 20px;
+}
+.FOOT-1 {
+    margin-bottom: 52px;
+}
+.FOOT-2 {
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-justify-content: center;
+}
+.FOOT-3 {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+}
+.FOOT-4 {
+    display: block;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+}
+.FOOT-5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.FOOT-6 {
+    display: inherit;
+    color: #262626;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+}
+.FOOT-7 {
+    font-weight: 400;
+    color: #8e8e8e;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.FOOT-8 {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+}
+.FOOT-9 {
+    margin-left: 4px;
+}
+.FOOT-10{
+    margin-left: 16px;
+}
+.FOOT-11 {
+        color: #8e8e8e;
+}
