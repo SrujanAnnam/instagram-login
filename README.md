@@ -1,3 +1,3 @@
-# instagram-login
+# Instagram-login
 
- this is a instagram login clone page.
+ This is a Responsive instagram login clone page.
