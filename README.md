@@ -2,4 +2,4 @@
 
  This is a Responsive instagram login clone page.
  
- https://loginpage-clone-insta.netlify.app/
+https://loginpage-clone.netlify.app/
