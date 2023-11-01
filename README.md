@@ -2,4 +2,4 @@
 
  This is a Responsive instagram login clone page.
  
-https://login-clone.netlify.app/
+https://dancing-malabi-07ba32.netlify.app/
