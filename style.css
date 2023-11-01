@@ -71,7 +71,7 @@ body {
 }
 .F {    
     align-self: center;
-    background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+    background-image: url(images/phone.png);
     background-position: 0 0;
     background-size: 454px 618px;
     flex-basis: 454px;
@@ -109,35 +109,35 @@ body {
     opacity: 1;
     visibility: visible;
     z-index: 2;
-    background-image: url(https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg);
+    background-image: url(images/1.jpg);
     background-size: 240px 427px;
   }
   25% {
     opacity: 1;
     visibility: visible;
     z-index: 2;
-    background-image: url(https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg);
+    background-image: url(images/2.jpg);
     background-size: 240px 427px;
   }
   50% {
     opacity: 1;
     visibility: visible;
     z-index: 2;
-    background-image: url(https://www.instagram.com/static/images/homepage/screenshot3-2x.jpg/ff2c097a681e.jpg);
+    background-image: url(images/3.jpg);
     background-size: 240px 427px;
   }
   75% {
     opacity: 1;
     visibility: visible;
     z-index: 2;
-    background-image: url(https://www.instagram.com/static/images/homepage/screenshot4-2x.jpg/b27a108592d8.jpg);
+    background-image: url(images/4.jpg);
     background-size: 240px 427px;
   }
   100% {
     opacity: 1;
     visibility: visible;
     z-index: 2;
-    background-image: url(https://www.instagram.com/static/images/homepage/screenshot5-2x.jpg/5e04169b9308.jpg);
+    background-image: url(images/5.jpg);
     background-size: 240px 427px;
   }
 }
@@ -165,11 +165,8 @@ body {
     overflow: hidden;
     text-indent: 110%;
     white-space: nowrap;
-    background-repeat: no-repeat;
-    background-position: 0 -130px;
-    height: 51px;
+    height: 70px;
     width: 175px;
-    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
 }
 .L {
     margin-bottom: 10px;
@@ -346,12 +343,11 @@ body {
     display: inline-block;
     margin-right: 8px;
     position: relative;
-    top: 3px; 
-    background-repeat: no-repeat;
-    background-position: -414px -259px;
-    height: 16px;
-    width: 16px;
-    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    top: 1px; 
+}
+.Facebook-1 i{
+    color: #385185;
+    font-size: 16px;
 }
 .Facebook-2 {
     color: #385185;
